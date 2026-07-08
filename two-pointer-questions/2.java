@@ -38,7 +38,12 @@ public class LargestElement {
 
         int largest = arr[0];
 
-        for (int i = 1; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {   
+
+            // 0 se kyu nahi use kis ha i hamna ?
+// Kyuki arr[0] ko hum already largest bana chuke hain.
+
+
             if (arr[i] > largest) {
                 largest = arr[i];
             }
